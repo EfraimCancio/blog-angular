@@ -4,4 +4,10 @@
   justify-content: center;
 }
 
+header {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
 /* .articles-others {} */
