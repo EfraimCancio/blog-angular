@@ -4,7 +4,7 @@
   </div>
   <a href="https://github.com/EfraimCancio/blog-angular" target="_blank">
     <div class="big-card-title">
-      <h1>{{cardTitle}}</h1>
+      <h1><a [routerLink]="['content', id]">{{cardTitle}}</a></h1>
     </div>
     <div class="big-card-description">
       <p>{{cardDescription}}</p>
